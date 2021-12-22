@@ -1,13 +1,13 @@
-package com.example.careerfair.ui.notifications
+package com.example.careerfair.ui.applications
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class NotificationsViewModel : ViewModel() {
+class ApplicationsViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is notifications Fragment"
+        value = "This is applications Fragment"
     }
     val text: LiveData<String> = _text
 }
